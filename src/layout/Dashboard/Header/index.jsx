@@ -56,7 +56,8 @@ export default function Header() {
     color: 'inherit',
     elevation: 0,
     sx: {
-      borderBottom: `1px solid ${theme.palette.divider}`
+      borderBottom: `1px solid ${theme.palette.divider}`,
+      boxShadow: 2
       // boxShadow: theme.customShadows.z1
     }
   };
